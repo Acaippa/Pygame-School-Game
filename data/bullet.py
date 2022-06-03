@@ -10,7 +10,7 @@ class Bullet:
 		pos: tuple
 		angle: int
 
-	Treates a bullet and moves it in a certain direction at a certain speed
+	Creates a bullet and moves it in a certain direction at a certain speed
 	"""
 
 	def __init__(self, pos=None, angle=None): # takes a list for position and float for the radiant angle
